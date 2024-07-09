@@ -1,0 +1,22 @@
+.review-tab {
+  padding: 20px;
+}
+
+.review-form {
+  margin-bottom: 20px;
+}
+
+.review-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.review-form button {
+  padding: 10px 20px;
+}
+
+.reviews-list .review {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}

@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black; 
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Center content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Button styles */
+button {
+  background-color: red; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #800000; 
+}
+
+/* Poem styles */
+.poem {
+  font-style: italic;
+  margin-top: 20px;  NNNNN
+}

@@ -1,0 +1,47 @@
+/* src/Options.css */
+.options-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 20px;
+}
+
+.options-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #ff0000; 
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, background-color 0.4s;
+}
+
+.options-container button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: left 0.4s;
+}
+
+.options-container button:hover {
+  transform: scale(1.05);
+  background-color: #ff6347; 
+
+.options-container button:focus {
+  outline: none;
+  background-color: #ff0000; 
+}
+
+.options-container button:active {
+  background-color: #ff4500; 
+
+.options-container button:hover::after {
+  left: 100%;
+}

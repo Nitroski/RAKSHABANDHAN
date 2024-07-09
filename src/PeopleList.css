@@ -1,0 +1,32 @@
+/* src/PeopleList.css */
+/* src/PeopleList.css */
+.people-list {
+  text-align: center;
+  margin: 20px;
+}
+
+.people-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.people-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #de1212;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.people-container button:hover {
+  background-color: #d70e0e;
+}
