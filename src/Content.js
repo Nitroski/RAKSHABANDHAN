@@ -116,8 +116,8 @@ function Content({ selectedOption }) {
         {message && <p>{message}</p>}
         {poem && (
           <img
-            src="https://media.discordapp.net/attachments/720631278415904816/1259841803755192361/pepe-heart.gif?ex=668dcf5c&is=668c7ddc&hm=5694e8295f972138602f4b74b31204177d3665d376dedfa352b9861d0b4752a2&=&width=264&height=192"
-            alt="Beating Heart"
+            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJ1Z3BxZTU1bW9nYmJjb3hzcHlsZTh5Z3dtem0wNzZxbzFvbmtpNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GH8A2cMYibLbhT6SWC/giphy.gif"
+            alt="Heart"
           />
         )}
       </div>
